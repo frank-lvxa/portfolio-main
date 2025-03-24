@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Your Name</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+            color: #222;
+            font-family: "Futura", "Bauhaus 93", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #d91e18;
+            text-align: center;
+            padding: 10px;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        header h1 {
+            font-size: 1.8em;
+            margin: 0;
+            color: #f4f4f4;
+            text-stroke: 1px gold;
+            -webkit-text-stroke: 1px gold;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 5px 0 0 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #f4f4f4;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s ease-out;
+        }
+
+        nav ul li a:hover {
+            color: #000;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #222;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .about-container img {
+            width: 250px;
+            height: auto;
+            margin-right: 30px;
+            border: 3px solid #222;
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .experience-container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 50px;
+        }
+
+        h2 {
+            font-size: 2.5em;
+            color: #d91e18;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            color: #444;
+            text-transform: uppercase;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills-list span {
+            background-color: #ffcc00;
+            padding: 10px 15px;
+            border: 2px solid #222;
+            font-weight: bold;
+        }
+
+        section {
+            padding-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Frank Le</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="profile.jpg" alt="Your Profile Picture">
+            <div class="about-text">
+                <p>Brief introduction about yourself, your skills, and what you do.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <h3>Work Experience</h3>
+            <p>Details about your past jobs, internships, or freelance work.</p>
+            <h3>Skills</h3>
+            <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>UI/UX Design</span>
+                <span>Graphic Design</span>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
